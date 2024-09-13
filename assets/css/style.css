@@ -1,3 +1,206 @@
-h1 {
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+header{
+    width:100vw ;
+    height: 60px;
+    background-color: rgb(28, 63, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>img{
+}
+
+header>span{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+
+main>img{
+    width: 100vw;
+    height: 400px
+}
+
+#section-02{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#section-02 > h1{
+    margin-bottom: 20px;
+    color: black;
+    background-color: white;
+}
+
+#section-02 > p{
+    margin: 20px;
+    /* background-color: #8a977e; */
+}
+
+iframe{
+    width: 600px;
+    height: 450px;
+    margin-right: 50px;
+}
+
+#outline-box{
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center
+}
+
+.outline{
+    border: 1px #333 solid;
+    padding: 100px 100px 80px 100px;
+}
+
+.outline > li{
+    margin-bottom: 20px;
+}
+
+
+.contents{
+    display: flex;
+}
+.content{
+    display: flex;
+    font-size: 22px;
+}
+
+.divider{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.custom-shape-divider-top-1631532852 {
+    width: 50%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1631532852 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1631532852 .shape-fill {
+    fill: rgb(28, 63, 123);
+}
+
+.divider {
+  position: relative;
+}
+
+body {
+  background:white;
+}
+.content {
+  padding: 2rem;
+}
+.white {
+  background:white;
+}
+.blue {
+  margin-top: 6rem;
+}
+h1, h2 {
+  font-family: 'Lobster Two', cursive;
+  background-color: rgb(28, 63, 123);
+  color: white;
+  
+}
+ 
+
+#section-04{
+    width: 100vw;
+    background-color: white(28, 63, 123);
+}
+
+#section-04 > h1{
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.c-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.spot{
+    width: 40%;
+    height: 600px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.spot > img{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.spot > h2{
+    text-align: center;
+    font-size: 19px;
+    margin: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.spot > p{
+    font-size: 16px;
+    margin: 20px;
+}
+
+.stamp{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 200px;
+    right: -500px;
+    z-index: -10;
+}
+
+/* 
+footer
+*/
+footer{
+    width:100vw ;
+    height: 60px;
+    background-color: rgb(28, 63, 123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+small{
+    color: white;
+    font-size: 20px;
 }
